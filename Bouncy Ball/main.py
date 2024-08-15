@@ -44,8 +44,6 @@ while True:
     circle_x += speed_x*multiplier_x
     circle_y += speed_y*multiplier_y
     pygame.draw.circle(window, (252, 163, 17), (circle_x, circle_y), circle_r)
-    pygame.draw.line(window, (0, 255, 0), (100, 100), (700, 500), 5)
-
 
     pygame.display.flip()
     pygame.time.Clock().tick(60)  # Limit to 60 FPS
